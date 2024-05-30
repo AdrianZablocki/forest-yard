@@ -43,9 +43,11 @@
   .offer {
     margin-bottom: 85px;
   }
-  
+
   .info {
-    margin-right: 16px;
+    /* margin-right: 16px;
+    margin-bottom: 0; */
+    margin: 0 16px 0 0;
     padding: 28px;
   }
 }
