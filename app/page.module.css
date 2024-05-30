@@ -139,9 +139,11 @@
 
   .moreButton,
   .price  {
-    width: 42%;
+    width: 50%;
     margin-bottom: 0;
+    text-align: center;
   }
+
 }
 
 
