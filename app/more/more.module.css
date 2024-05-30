@@ -1,0 +1,32 @@
+.title {
+  margin-top: 70px;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: #023E08;
+}
+
+.place {
+  margin: 54px 0 35px;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+
+.offerHeader {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 85px;
+}
+
+.section {
+  margin-bottom: 85px;
+}
+
+.forest figcaption {
+  margin: 54px 0;
+  font-size: 32px;
+}

@@ -1,0 +1,39 @@
+.offer {
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 85px;
+}
+
+.bigText {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.info p {
+  padding: 0 24px 24px;
+  margin: 0;
+  border-bottom: 1px solid #000;
+}
+
+.infoDetails {
+  padding: 16px 24px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 0;
+  color: #575656;
+  border-top: 1px solid #000;
+}
