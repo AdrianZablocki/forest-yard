@@ -1,27 +1,30 @@
 .content {
+  margin: 0;
   display: flex;
-  justify-content: space-between;
-  margin: 20px 20px 0 0;
-  padding-bottom: 20px;
   background-color: #F8FCF6;
+  flex-direction: column-reverse;
 }
 
 .contentWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
-  height: calc(100vh - 160px);
+  display: block;
+  width: 100%;
+  padding: 16px;
   margin: 0 -300px 0 80px;
   z-index: 1;
   font-weight: 800;
 }
 
+.contentWrapper,
+.content { 
+  height: auto;
+  margin: 0;
+}
+
 .background {
-  width: 68%;
-  padding-top: 66%;
+  width: 100%;
+  padding-top: 74%;
+  margin: 0;
   background: url('../public/images/bg.webp') bottom center / cover no-repeat;
-  margin: -20px -20px 0 0;
 }
 
 .background,
@@ -32,8 +35,11 @@
 }
 
 .title {
-  margin-top: 70px;
-  font-size: 84px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1;
   text-shadow: -2px 2px 0px #000;
@@ -41,24 +47,27 @@
 }
 
 .place {
-  margin: 54px 0 35px;
-  font-size: 24px;
+  margin: 32px 0 24px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #023E08;
+  text-align: center;
 }
 
 .price {
-  font-size: 34px;
+  font-size: 24px;
   color: #768127;
   text-align: center;
 }
 
 .moreButton,
 .price  {
-  width: 42%;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .moreButton {
+  display: inline-block;
   border: none;
   color: #fff;
   background-color: #023E08;
@@ -68,9 +77,76 @@
   padding: 24px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 460px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 560px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 700px) {
+
+  .content {
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px 20px 0 0;
+    padding-bottom: 20px;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 24px;
+    margin-right: -300px;
+    height: calc(100vh - 160px);
+  }
+
   .background {
-    width: 76%;
-    padding-top: 48%;
+    width: 75%;
+  }
+
+  .title {
+    display: block;
+    margin-top: 70px;
+    font-size: 64px;
+  }
+
+  .place {
+    margin: 54px 0 35px;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .price {
+    font-size: 34px;
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 991px) {
+
+  .background {
+    margin: -20px -20px 0 0;
+  }
+
+  .moreButton,
+  .price  {
+    width: 42%;
+    margin-bottom: 0;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 84px;
   }
 }

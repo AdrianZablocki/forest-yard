@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
   const isMainPage = pathname === '/';
 
   return (
-    <main>
+    <main className={styles.main}>
       <div className={`${styles.header}`}>
         <h1 className={`${styles.logo} ${inria.className}`}>
           <a href="/">

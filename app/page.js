@@ -9,16 +9,16 @@ export default function Home() {
       <>
         <div className={styles.content}>
 
-        <div className={styles.contentWrapper}>
-          <div>
-            <div className={styles.title}>
-              Działk<Tree dimension="70" rootColor="#1E1C16" leafColor="#556507" />
-              <div>za lasem</div>
+          <div className={styles.contentWrapper}>
+            <div>
+              <div className={styles.title}>
+                Działk<Tree dimension="70" rootColor="#1E1C16" leafColor="#556507" />
+                <div>za lasem</div>
+              </div>
+              <div className={styles.place}>Sobolew, mazowieckie</div>
+              <div className={styles.price}>90 zł/m<sup>2</sup></div>
             </div>
-            <div className={styles.place}>Sobolew, mazowieckie</div>
-            <div className={styles.price}>90 zł/mkw</div>
-          </div>
-          <a href='/more' className={styles.moreButton}>Dowiedz się więcej</a>
+            <a href='/more' className={styles.moreButton}>Dowiedz się więcej</a>
           </div>
 
           <div className={styles.background}></div>

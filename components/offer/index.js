@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './offer.module.css'
 
 const Offer = ({ data }) => (
-  <div className={`grid gap ${styles.offer}`}>
+  <div className={`grid ${styles.offer}`}>
     <div className={styles.info}>
       <div>
         <p>Informacje o wybranej działce</p>
