@@ -10,13 +10,13 @@ export const metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  metadataBase: new URL('https://dzailkizalasem.pl'),
+  metadataBase: new URL('https://forest-yard.vercel.app'),
   openGraph: {
     title: 'Działki za lasem',
     locale: 'pl_PL',
     type: 'website',
     description: 'Działki za lasem - tanie działki budwlane w okolicy Warszawy',
-    url: 'https://dzailkizalasem.pl',
+    url: 'https://forest-yard.vercel.app',
     images: '/opengraph-image.jpeg'
   },
   robots: {
