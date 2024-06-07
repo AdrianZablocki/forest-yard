@@ -10,13 +10,13 @@ export const metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  metadataBase: new URL('https://dzailkizalasem.pl'),
+  metadataBase: new URL('https://dzialkizalasem.pl'),
   openGraph: {
     title: 'Działki za lasem',
     locale: 'pl_PL',
     type: 'website',
     description: 'Działki za lasem - tanie działki budwlane w okolicy Warszawy',
-    url: 'https://dzailkizalasem.pl',
+    url: 'https://dzialkizalasem.pl',
     images: '/opengraph-image.jpeg'
   },
   robots: {
