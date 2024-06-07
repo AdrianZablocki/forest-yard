@@ -17,7 +17,7 @@ export const metadata = {
     type: 'website',
     description: 'Działki za lasem - tanie działki budwlane w okolicy Warszawy',
     url: 'https://dzailkizalasem.pl',
-    images: '/public/images/opengraph-image.jpeg'
+    images: '/opengraph-image.jpeg'
   },
   robots: {
     index: true,
