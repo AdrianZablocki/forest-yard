@@ -7,6 +7,7 @@ import { offers } from '@/components/offer/offers.config'
 import roadImg from '@/public/images/road.webp'
 import yardImg from '@/public/images/yard.webp'
 import forestImg from '@/public/images/forest.webp'
+import googleMapImg from '@/public/images/google-map.webp'
 
 import styles from './more.module.css'
 
@@ -18,6 +19,16 @@ const MorePage = () => {
           Działk<Tree dimension="70" rootColor="#1E1C16" leafColor="#556507" />za lasem
         </div>
         <div className={styles.place}>Sobolew, mazowieckie</div>
+
+        <section className={styles.section}>
+          <Image
+            src={googleMapImg}
+            width={260}
+            height={56}
+            layout='responsive'
+            alt="Google"
+          />
+        </section>
         
         <section className={`grid ${styles.section}`}>
           <Image
